@@ -12,7 +12,7 @@ public class User {
     }
 
     //Getter and Setter
-    public String getUserId() {return userId}
+    public String getUserId() {return userId;}
     public void setUserId(String userId) {this.userId = userId;}
 
     public String getName() {return name;}
