@@ -160,6 +160,6 @@ public class App {
             System.out.println("Book added to the order!");
         }
         // Display the total cost of the order
-        System.out.println("Order created successfully! Total Cost: $" + orderService.calculateTotalCost(order));
+        System.out.println("Order created successfully! Total Cost: ₹" + orderService.calculateTotalCost(order));
     }
 }
